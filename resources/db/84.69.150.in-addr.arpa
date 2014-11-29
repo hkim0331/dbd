@@ -1,0 +1,163 @@
+;-*- mode: dns; -*-
+;
+$TTL	86400	; 1day
+@	IN	SOA	cony.mns.kyutech.ac.jp. root.cony.melt.kyutech.ac.jp. (
+	2014112902	; serial yyyymmddss
+	10800	; refresh
+	3600	; retry
+	60480	; expire
+	86400	; minimum tty
+	)
+	IN	NS	cony.mns.kyutech.ac.jp.
+	IN	NS	ns.tobata.isc.kyutech.ac.jp.
+0	IN	PTR	net.mns.kyutech.ac.jp.
+;
+10	IN	PTR	dhcp10.mns.kyutech.ac.jp.
+11	IN	PTR	dhcp11.mns.kyutech.ac.jp.
+12	IN	PTR	dhcp12.mns.kyutech.ac.jp.
+13	IN	PTR	dhcp13.mns.kyutech.ac.jp.
+14	IN	PTR	dhcp14.mns.kyutech.ac.jp.
+15	IN	PTR	dhcp15.mns.kyutech.ac.jp.
+16	IN	PTR	dhcp16.mns.kyutech.ac.jp.
+17	IN	PTR	dhcp17.mns.kyutech.ac.jp.
+18	IN	PTR	dhcp18.mns.kyutech.ac.jp.
+19	IN	PTR	dhcp19.mns.kyutech.ac.jp.
+20	IN	PTR	dhcp20.mns.kyutech.ac.jp.
+21	IN	PTR	dhcp21.mns.kyutech.ac.jp.
+22	IN	PTR	dhcp22.mns.kyutech.ac.jp.
+23	IN	PTR	dhcp23.mns.kyutech.ac.jp.
+24	IN	PTR	dhcp24.mns.kyutech.ac.jp.
+25	IN	PTR	dhcp25.mns.kyutech.ac.jp.
+26	IN	PTR	dhcp26.mns.kyutech.ac.jp.
+27	IN	PTR	dhcp27.mns.kyutech.ac.jp.
+28	IN	PTR	dhcp28.mns.kyutech.ac.jp.
+29	IN	PTR	dhcp29.mns.kyutech.ac.jp.
+30	IN	PTR	dhcp30.mns.kyutech.ac.jp.
+31	IN	PTR	dhcp31.mns.kyutech.ac.jp.
+32	IN	PTR	dhcp32.mns.kyutech.ac.jp.
+33	IN	PTR	dhcp33.mns.kyutech.ac.jp.
+34	IN	PTR	dhcp34.mns.kyutech.ac.jp.
+35	IN	PTR	dhcp35.mns.kyutech.ac.jp.
+36	IN	PTR	dhcp36.mns.kyutech.ac.jp.
+37	IN	PTR	dhcp37.mns.kyutech.ac.jp.
+38	IN	PTR	dhcp38.mns.kyutech.ac.jp.
+39	IN	PTR	dhcp39.mns.kyutech.ac.jp.
+40	IN	PTR	dhcp40.mns.kyutech.ac.jp.
+41	IN	PTR	dhcp41.mns.kyutech.ac.jp.
+;
+;
+;inoue 101-110
+;101
+;102
+103	IN	PTR	inoue-rt.mns.kyutech.ac.jp.	;sozo@mns.kyutech.ac.jp
+;104	IN	PTR	sozo.mns.kyutech.ac.jp.		;2010-12-02
+104	IN	PTR	sozo-104.mns.kyutech.ac.jp.	;2014-10-28
+105	IN	PTR	sozo.mns.kyutech.ac.jp.		;2014-08-18
+106	IN	PTR	sozolab3.mns.kyutech.ac.jp.	;2015-03-25
+108	IN	PTR	mimicmotion.mns.kyutech.ac.jp.	;2013-09-10 for migita.
+109 	IN 	PTR 	eneact.mns.kyutech.ac.jp.	;2014-11-03, tanaka shota.
+;110
+;
+;111
+112	IN	PTR	nakao-office.mns.kyutech.ac.jp.;nakao-m@mns.
+113	IN	PTR	deguchi-rt.mns.kyutech.ac.jp.	;deguchi@mns.
+114	IN	PTR	150-69-84-114.mns.kyutech.ac.jp.;mitoh@mns.
+115	IN	PTR	150-69-84-115.mns.kyutech.ac.jp.;takahara@mns
+116	IN	PTR	150-69-84-116.mns.kyutech.ac.jp.;sun@ele.kyutech.ac.jp
+117	IN	PTR	150-69-84-117.mns.kyutech.ac.jp.;sakai@mns.kyutech.ac.jp
+118	IN	PTR	150-69-84-118.mns.kyutech.ac.jp.;fujita@mns.kyutech.ac.jp
+119	IN	PTR	150-69-84-119.mns.kyutech.ac.jp.;nakao-m@mns.kyutech.ac.jp
+120	IN	PTR	150-69-84-120.mns.kyutech.ac.jp.;suzuki-t@mns.kyutech.ac.jp
+122	IN	PTR	150-69-84-122.mns.kyutech.ac.jp.;kamada@mns.kyutech.ac.jp
+124	IN	PTR	150-69-84-124.mns.kyutech.ac.jp.;ikedat@mns.kyutech.ac.jp
+125	IN	PTR	150-69-84-125.mns.kyutech.ac.jp.;hirayama@mns.kyutech.ac.jp
+126	IN	PTR	150-69-84-126.mns.kyutech.ac.jp.;okado@mns.
+127	IN	PTR	150-69-84-127.mns.kyutech.ac.jp.;okado@mns.
+128	IN	PTR	150-69-84-128.mns.kyutech.ac.jp.;h350916t@tobata.isc.kyutech.ac.jp
+129	IN	PTR	150-69-84-129.mns.kyutech.ac.jp.	;soeda@ise.kyutech.ac.jp
+130	IN	PTR	150-69-84-130.mns.kyutech.ac.jp.	;senba@mns.kyutech.ac.jp
+132	IN	PTR	150-69-84-132.mns.kyutech.ac.jp.	;nisitani@mns.kyutech.ac.jp
+133	IN	PTR	150-69-84-133.mns.kyutech.ac.jp.	;nisitani@mns.kyutech.ac.jp
+134	IN	PTR	150-69-84-134.mns.kyutech.ac.jp.	;nisitani@mns.kyutech.ac.jp
+135	IN	PTR	150-69-84-135.mns.kyutech.ac.jp.	;nisitani@mns.kyutech.ac.jp
+136	IN	PTR	150-69-84-136.mns.kyutech.ac.jp.	;math@mns.kyutech.ac.jp
+137	IN	PTR	150-69-84-137.mns.kyutech.ac.jp.	;math@mns.kyutech.ac.jp
+138	IN	PTR	150-69-84-138.mns.kyutech.ac.jp.	;katom@mns.kyutech.ac.jp
+139	IN	PTR	150-69-84-139.mns.kyutech.ac.jp.	;sakai@mns.kyutech.ac.jp
+140	IN	PTR	150-69-84-140.mns.kyutech.ac.jp.	;fujita@mns.kyutech.ac.jp
+;141	IN	PTR	150-69-84-141.mns.kyutech.ac.jp.	;agyman@mns.
+142	IN	PTR	150-69-84-142.mns.kyutech.ac.jp.	;pbl-rt@mns.
+143	IN	PTR	150-69-84-143.mns.kyutech.ac.jp.	;kishine@mns.
+; 2010-07-29
+144	IN	PTR	150-69-84-144.mns.kyutech.ac.jp.	;sozo@mns.
+145	IN	PTR	150-69-84-145.mns.kyutech.ac.jp.	;sozo@mns.
+146	IN	PTR	150-69-84-146.mns.kyutech.ac.jp.	;sozo@mns.
+; 2011-06-27
+148	IN	PTR	150-69-84-148.mns.kyutech.ac.jp.	;fujita@mns.
+149	IN	PTR	alkan3.mns.kyutech.ac.jp. ;2011-11-02.
+;
+150	IN	PTR	orion.mns.kyutech.ac.jp. 	;2011-11-15.
+151	IN	PTR	vega.mns.kyutech.ac.jp. 	;2013-02-20.
+;152	IN	PTR	jimu-ise.mns.kyutech.ac.jp. 	;2011-11-22.
+153	IN	PTR	swata-rt.mns.kyutech.ac.jp.	;swata@mns.
+;154
+155	IN	PTR	hemulen.mns.kyutech.ac.jp.	;kazuma@mns.
+156	IN	PTR	hlab1.mns.kyutech.ac.jp.	;hanazawa@mns.
+157	IN	PTR	hlab2.mns.kyutech.ac.jp.	;hanazawa@mns.
+158	IN	PTR	hlab3.mns.kyutech.ac.jp.	;hanazawa@mns.
+;159
+160	IN	PTR	tv.mns.kyutech.ac.jp.		;sozo@mns.
+;161
+;162
+;163
+;165
+;165
+;166
+;167
+;168
+;169
+170 IN  PTR hemulen-rt.mns.kyutech.ac.jp.       ; kazuma@mns.
+171 IN  PTR oda-rt.mns.kyutech.ac.jp.           ; oda@mns.
+172 IN  PTR nisitani-rt-105.mns.kyutech.ac.jp.  ; nisitani@mns.
+173 IN  PTR nisitani-rt-104.mns.kyutech.ac.jp.  ; nisitani@mns.
+174 IN  PTR nisitani-rt-404.mns.kyutech.ac.jp.  ; nisitani@mns.
+175 IN  PTR n-sakai-rt.mns.kyutech.ac.jp.       ; n-sakai@mns.
+176 IN  PTR mitoh-rt.mns.kyutech.ac.jp.         ; mitoh@mns.
+177 IN  PTR oda-rt-2.mns.kyutech.ac.jp.         ; oda@mns.
+178 IN  PTR nisitani-rt-x.mns.kyutech.ac.jp.    ; nisitani@mns.
+179 IN	PTR n-sakai-rt-2.mns.kyutech.ac.jp.	;n-sakai@ise.
+180 IN  PTR sun-rt-1.mns.kyutech.ac.jp.		;sun@ise.
+181 IN	PTR takahara-rt-1.mns.kyutech.ac.jp.	;takahara@ise.
+182 IN	PTR nakao-rt.mns.kyutech.ac.jp.		;nakao@ise.
+;
+190	IN	PTR	faddeev.mns.kyutech.ac.jp.	;kamada@mns.
+;
+;195
+;196
+;197
+198	IN	PTR	ist2.mns.kyutech.ac.jp. ;miuramo@mns.kyutech.ac.jp
+201	IN	PTR	es1.mns.kyutech.ac.jp.	;asami@mns.kyutech.ac.jp
+202	IN	PTR	es2.mns.kyutech.ac.jp.	;asami@mns.kyutech.ac.jp
+203	IN	PTR	es3.mns.kyutech.ac.jp.	;asami@mns.kyutech.ac.jp
+210	IN	PTR	nisitani-rt.mns.kyutech.ac.jp.	;nisitani@mns.
+211	IN	PTR	sun-lab.mns.kyutech.ac.jp.	;sun@ele.kyutech.ac.jp
+212	IN	PTR	kamada-rt.mns.kyutech.ac.jp.	;kamada@mns.
+213	IN	PTR	nisitani-rt2.mns.kyutech.ac.jp. ;nisitani@mns.
+;
+; 2010-11-26
+220	IN	PTR	mouse.mns.kyutech.ac.jp.	;hiroshi.kimura.0331@gmail.com
+221	IN	PTR	cony.mns.kyutech.ac.jp.		;hiroshi.kimura.0331@gmail.com
+222	IN	PTR	rabbit.mns.kyutech.ac.jp.	;hiroshi.kimura.0331@gmail.com
+223	IN	PTR	bunny.mns.kyutech.ac.jp.	;hiroshi.kimura.0331@gmail.com
+;
+242	IN	PTR	kazuma-rt.mns.kyutech.ac.jp.	;kazuma@mns.kyutech.ac.jp
+;
+243	IN	PTR	jimu-rt.mns.kyutech.ac.jp.	;inada@mns.kyutech.ac.jp
+244	IN	PTR	jimu-ise.kyutech.ac.jp.		;n-sakai@mns.
+;
+250	IN	PTR	pbl.ise.kyutech.ac.jp.		;nakao-m@mns.kyutech.ac.jp
+;251	IN	PTR	hamilton.mns.kyutech.ac.jp.	;hiroshi.kimura.0331@gmail.com
+252	IN	PTR	nas.mns.kyutech.ac.jp.		;2011-06-27.
+;253
+254	IN	PTR	gw.mns.kyutech.ac.jp.
+;end of record.
