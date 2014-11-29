@@ -1,6 +1,6 @@
 # dbd
 
-FIXME
+maintenance dhcpd.conf, mns.zone and 84.apra configuration files.
 
 ## Prerequisites
 
@@ -16,4 +16,4 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 hiroshi.kimura.0331@gmail.com
