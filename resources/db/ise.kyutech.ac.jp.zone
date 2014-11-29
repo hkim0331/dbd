@@ -1,0 +1,57 @@
+;
+$TTL	86400	; 1 day
+@	IN	SOA	cony.mns.kyutech.ac.jp. root.cony.mns.kyutech.ac.jp. (
+	2014112900	; serial
+	10801	; refresh
+	3600	; retry
+	60480	; expire
+	86400	; minimum tty
+	)
+	IN	NS	cony.mns.kyutech.ac.jp.
+	IN	NS	ns.tobata.isc.kyutech.ac.jp.
+	IN	MX	20	rabbit.mns.kyutech.ac.jp.
+	IN	MX	30	hamilton.mns.kyutech.ac.jp.
+net		IN	A	150.69.84.0
+;
+mail		IN	A	150.69.84.222
+;
+; 2010-12-01, off 2011-03-25
+;mouse	IN	A	150.69.84.220	;hiroshi.kimura.0331@gmail.com
+;cony	IN	A	150.69.84.221	;hiroshi.kimura.0331@gmail.com
+;coney	IN	CNAME	cony
+;rabbit	IN	A	150.69.84.222	;hiroshi.kimura.0331@gmail.com
+;	IN	MX	100	rabbit.mns.kyutech.ac.jp.
+;rabit	IN	CNAME	rabbit
+;bunny	IN	A	150.69.84.223	;hiroshi.kimura.0331@gmail.com
+;
+;
+; followings are ysuzuki's request.
+;
+www2		IN	CNAME   dns1
+www		IN	CNAME	dns3
+www.nano	IN	CNAME	nano
+www.metro	IN	CNAME	metro
+;
+pbl	IN	A	150.69.84.250	;nakao-m@mns.kyutech.ac.jp
+pbl-rt	IN	A	150.69.84.142	;nakao-m@mns.kyutech.ac.jp
+;
+nano		IN	A	150.69.73.55
+nano-1		IN	A	150.69.73.120
+nano-2		IN	A	150.69.73.121
+;
+dns1		IN	A	150.69.87.181
+koukido3	IN	A	150.69.87.183
+            IN	MX	10 koukido3.ise.kyutech.ac.jp.
+koukido5	IN	A	150.69.87.225
+koukido6	IN	A	150.69.87.226
+;
+dns3		IN	A	150.69.160.201
+metro		IN	A	150.69.160.112
+nanodevice	IN	A	150.69.160.145
+;
+es		IN	A	150.69.84.201	;asami@mns.kyutech.ac.jp
+es1		IN	A	150.69.84.201	;asami@mns.kyutech.ac.jp
+es2		IN	A	150.69.84.202	;asami@mns.kyutech.ac.jp
+es3		IN	A	150.69.84.203	;asami@mns.kyutech.ac.jp
+;es		IN	CNAME	es1.ise.kyutech.ac.jp.
+;end of record.

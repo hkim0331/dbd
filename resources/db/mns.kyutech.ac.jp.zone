@@ -1,0 +1,226 @@
+;
+$TTL	86400	; 1day
+@	IN	SOA	cony.mns.kyutech.ac.jp. root.cony.mns.kyutech.ac.jp. (
+	2014112901	; serial, yyyymmddss
+	10800	; refresh (3 hours)
+	3600	; retry (1 hour)
+	604800	; expire (1 week)
+	86400	; minimum (1 day)
+	)
+	IN	NS	cony.mns.kyutech.ac.jp.
+	IN	NS	ns.tobata.isc.kyutech.ac.jp.
+	IN	MX	20	rabbit.mns.kyutech.ac.jp.
+net	IN	A	150.69.84.0
+gw	IN	A	150.69.84.254
+hamilton	IN	CNAME	rabbit		; 2013-01-09.
+;
+; services
+;
+offer       IN	A	150.69.84.223	; bunny
+offer2014	IN	A	150.69.84.223	; bunny
+;
+; old services
+;
+;master		IN	A	150.69.84.223	; bunny
+;graduate	IN	A	150.69.84.223	; bunny
+;ad	        IN	A	150.69.84.223	; bunny
+;b4	        IN	A	150.69.84.223	; bunny
+;m2	        IN	A	150.69.84.223	; bunny
+;lab	        IN	A	150.69.84.222	; rabbit
+;
+jabee       IN	A	150.69.84.222	; rabbit, 2014-05-24
+;
+dns     IN	A	150.69.84.221
+ldap	IN	A	150.69.84.221
+ns	    IN	A	150.69.84.221
+ntp	    IN	A	150.69.84.221
+ntpd	IN	A	150.69.84.221
+;
+mail	IN	A	150.69.84.222
+pop	    IN	A	150.69.84.222
+pop3	IN	A	150.69.84.222
+imap	IN	A	150.69.84.222
+imap4	IN	A	150.69.84.222
+smtp	IN	A	150.69.84.222
+;
+www     IN	A	150.69.84.222
+isbfs	IN	A	150.69.84.222 ; 2007.07.06, 2011-03-25
+jps	    IN	A	150.69.84.222 ; 2010.06.08, 2011-03-25
+;
+; dhcp pool
+
+dhcp10	IN	A	150.69.84.10
+dhcp11	IN	A	150.69.84.11
+dhcp12	IN	A	150.69.84.12
+dhcp13	IN	A	150.69.84.13
+dhcp14	IN	A	150.69.84.14
+dhcp15	IN	A	150.69.84.15
+dhcp16	IN	A	150.69.84.16
+dhcp17	IN	A	150.69.84.17
+dhcp18	IN	A	150.69.84.18
+dhcp19	IN	A	150.69.84.19
+dhcp20	IN	A	150.69.84.20
+dhcp21	IN	A	150.69.84.21
+dhcp22	IN	A	150.69.84.22
+dhcp23	IN	A	150.69.84.23
+dhcp24	IN	A	150.69.84.24
+dhcp25	IN	A	150.69.84.25
+dhcp26	IN	A	150.69.84.26
+dhcp27	IN	A	150.69.84.27
+dhcp28	IN	A	150.69.84.28
+dhcp29	IN	A	150.69.84.29
+dhcp30	IN	A	150.69.84.30
+dhcp31	IN	A	150.69.84.31
+dhcp32	IN	A	150.69.84.32
+dhcp33	IN	A	150.69.84.33
+dhcp34	IN	A	150.69.84.34
+dhcp35	IN	A	150.69.84.35
+dhcp36	IN	A	150.69.84.36
+dhcp37	IN	A	150.69.84.37
+dhcp38	IN	A	150.69.84.38
+dhcp39	IN	A	150.69.84.39
+dhcp40	IN	A	150.69.84.40
+dhcp41	IN	A	150.69.84.41
+;;;
+;;; name from-to is a global accessible ip.
+;;;
+;;
+;; inoue 101-110
+inoue-rt	IN	A	150.69.84.103	;sozo@mns.kyutech.ac.jp
+sozo-104	IN	A	150.69.84.104	;sozo@mns.
+sozo		IN	A	150.69.84.105	;2014-08-18, sozo@mns.
+kiso		IN	CNAME	sozo
+pbl		IN	CNAME	sozo		;2012-04-06.
+vermin		IN	CNAME	sozo		;2010-12-15.
+sozolab2	IN	A	150.69.84.105	;2014-03-25.
+sozolab3	IN	A	150.69.84.106	;2014-03-25.
+mimicmotion	IN	A	150.69.84.108	;2013-09-10, for migita.
+eneact      	IN  	A   	150.69.84.109   ;2014-11-03, tanaka shota. 
+;
+;
+nakao-office	IN	A	150.69.84.112	;nakao-m@mns.kyutech.ac.jp
+deguchi-rt	IN	A	150.69.84.113	;deguchi@tobata.isc.
+150-69-84-114	IN	A	150.69.84.114	;mitoh@tobata.isc.kyutech.ac.jp
+150-69-84-115	IN	A	150.69.84.115	;takahara@tobata.isc.
+150-69-84-116	IN	A	150.69.84.116	;sun@ele.kyutech.ac.jp
+150-69-84-117	IN	A	150.69.84.117	;sakai@mns.kyutech.ac.jp
+150-69-84-118	IN	A	150.69.84.118	;fujita@mns.kyutech.ac.jp
+150-69-84-119	IN	A	150.69.84.119	;nakao-m@mns.kyutech.ac.jp
+150-69-84-120	IN	A	150.69.84.120	;suzuki-t@mns.kyutech.ac.jp
+150-69-84-122	IN	A	150.69.84.122	;kamada@mns.kyutech.ac.jp
+150-69-84-124	IN	A	150.69.84.124	;ikedat@mns.kyutech.ac.jp
+150-69-84-125	IN	A	150.69.84.125	;hirayama@mns.kyutech.ac.jp
+150-69-84-126	IN	A	150.69.84.126	;okado@tobata.isc.kyutech.ac.jp
+150-69-84-127	IN	A	150.69.84.127	;okado@tobata.isc.kyutech.ac.jp
+150-69-84-128	IN	A	150.69.84.128	;h350916t@tobata.isc.
+150-69-84-129	IN	A	150.69.84.129	;soeda@ise.kyutech.ac.jp
+150-69-84-130	IN	A	150.69.84.130	;senba@mns.kyutech.ac.jp
+;
+; nishitani 132-135
+;
+150-69-84-132	IN	A	150.69.84.132	;nisitani@mns.kyutech.ac.jp
+butsuri-nas	IN	CNAME   150-69-84-132
+butu-nas	IN	CNAME	150-69-84-132
+150-69-84-133	IN	A	150.69.84.133	;nisitani@mns.kyutech.ac.jp
+150-69-84-134	IN	A	150.69.84.134	;nisitani@mns.kyutech.ac.jp
+150-69-84-135	IN	A	150.69.84.135	;nisitani@mns.kyutech.ac.jp
+;
+;
+;
+150-69-84-136	IN	A	150.69.84.136	;math@mns.kyutech.ac.jp
+150-69-84-137	IN	A	150.69.84.137	;math@mns.kyutech.ac.jp
+150-69-84-138	IN	A	150.69.84.138	;katom@mns.kyutech.ac.jp
+150-69-84-139	IN	A	150.69.84.139	;sakai@mns.kyutech.ac.jp
+150-69-84-140	IN	A	150.69.84.140	;fujita@mns.kyutech.ac.jp
+;
+; inoue 141-149
+;
+150-69-84-141	IN	A	150.69.84.141	;agyeman@mns.kyutech.ac.jp
+150-69-84-142	IN	A	150.69.84.142	;pbl-rt@mns.kyutech.ac.jp
+150-69-84-143	IN	A	150.69.84.143	;kishine@mns.kyutech.ac.jp
+150-69-84-144	IN	A	150.69.84.144	;sozo@mns.kyutech.ac.jp
+150-69-84-145	IN	A	150.69.84.145	;sozo@mns.kyutech.ac.jp
+150-69-84-146	IN	A	150.69.84.146	;sozo@mns.kyutech.ac.jp
+alkan		    IN	A	133.5.128.40	; 2009-10-06.
+alkan2		    IN	A	150.69.84.147 	;2010-11-04
+;
+150-69-84-148	IN	A	150.69.84.148	; 2011-06-27, fujita.
+alkan3		    IN	A	150.69.84.149	; 2011-11-02
+;
+; watanabe 150-153
+;
+orion		IN	A	150.69.84.150	; 2011-11-15. 7-201
+vega		IN	A	150.69.84.151	; 2013-02-20. 9-3F
+swata-rt	IN	A	150.69.84.153	; swata@mns.;
+;
+; kazuma 155-157
+;
+hemulen		IN	A	150.69.84.155	; kazuma@mns.
+;
+; 2013-03-04
+hlab1	IN	A	150.69.84.156 ;hanazawa@mns.
+hlab2	IN	A	150.69.84.157 ;hanazawa@mns.
+hlab3	IN	A	150.69.84.158 ;hanazawa@mns.
+;
+tv      IN	A	150.69.84.160	; sozo@mns.
+;
+; 2014-10-31
+hemulen-rt      IN A 150.69.84.170 ;nakamura@mns.
+oda-rt          IN A 150.69.84.171 ;oda@mns.
+nisitani-rt-105 IN A 150.69.84.172 ; nisitani@mns.
+nisitani-rt-104 IN A 150.69.84.173 ; nisitani@mns.
+nisitani-rt-404 IN A 150.69.84.174 ; nisitani@mns.
+n-sakai-rt      IN A 150.69.84.175 ; n-sakai@ise.
+mitoh-rt        IN A 150.69.84.176 ; mitoh@mns.
+oda-rt-2        IN A 150.69.84.177 ; oda@mns.
+nisitani-rt-x   IN A 150.69.84.178 ; nisitani@mns.
+n-sakai-rt-2	IN A 150.69.84.179 ; n-sakai@ise.
+sun-rt-1	IN A 150.69.84.180 ; sun@ise.
+takahara-rt-1	IN A 150.69.84.181 ; takahara@ise.
+nakao-rt	IN A 150.69.84.182 ; nakao@ise.
+;
+;
+faddeev	IN	A	150.69.84.190	;kamada@mns.kyutech.ac.jp
+; miura 191-200 (since 2014/4/1, 150.69.86.2-3)
+ist	IN	A	150.69.86.2	;miuramo@mns.
+istlab2	IN	A	150.69.86.4	;miuramo@mns.
+istlab  IN	A	150.69.86.5	;miuramo@mns.
+webatn  IN	A	150.69.86.5	;miuramo@mns.
+;
+ist2	IN	A	150.69.84.198	;miuramo@mns.
+;;
+;; asami 201-210
+es1	IN	A	150.69.84.201	;asami@mns.kyutech.ac.jp
+es2	IN	A	150.69.84.202	;asami@mns.kyutech.ac.jp
+es3	IN	A	150.69.84.203	;asami@mns.kyutech.ac.jp
+es	IN	CNAME	es1
+;
+;
+nisitani-rt	IN	A	150.69.84.210	;nisitani@mns.kyutech.ac.jp
+sun-lab		IN	A	150.69.84.211	;sun@ele.kyutech.ac.jp
+kamada-rt	IN	A	150.69.84.212	;kamada@mns.
+; 
+nisitani-rt2	IN	A	150.69.84.213	;nisitani@mns.kyutech.ac.jp
+;
+; 220-229 for mns servers
+;
+mouse	       IN	A	150.69.84.220	;hiroshi.kimura.0331@gmail.com
+cony	       IN	A	150.69.84.221	;hiroshi.kimura.0331@gmail.com
+coney	       IN	CNAME	cony
+conny	       IN	CNAME	cony		; 2011-03-18.
+raspberrypi    IN	CNAME   cony	; 2014-10-28.
+rabbit	       IN	A	150.69.84.222	;hiroshi.kimura.0331@gmail.com
+	       IN	MX	100	rabbit.mns.kyutech.ac.jp.
+rabit	       IN	CNAME	rabbit
+bunny	       IN	A	150.69.84.223	;hiroshi.kimura.0331@gmail.com
+;
+;
+;
+kazuma-rt	IN	A	150.69.84.242	;kazuma@mns.kyutech.ac.jp
+;
+jimu-rt		IN	A	150.69.84.243	;inada@mns.kyutech.ac.jp
+jimu-ise	IN	A	150.69.84.244	; 2012-12-26.
+;
+;
+;nas		    IN	A	150.69.84.252	; 2011-06-27.
+; end of record.
