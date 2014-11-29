@@ -16,3 +16,11 @@ init-forward: mns.kyutech.ac.jp.zone ise.kyutech.ac.jp.zone
 init-mac: dhcpd.conf
 	ruby init-mac.rb ${DB} $<
 
+dhcp:
+	ruby make-dhcp.rb ${DB}
+
+reverse:
+	ruby make-reverse.rb ${DB} | sort -n
+
+forward:
+	ruby make-forward.rb ${DB} | sort
