@@ -1,9 +1,11 @@
 (ns dbd.views.layout
   (:require [hiccup.page :refer [html5 include-css]]))
 
-(defn common [& body]
+(defn common [title & body]
   (html5
     [:head
-     [:title "Welcome to dbd"]
+     [:title title]
+     (include-css "/css/bootstrap.min.css")
      (include-css "/css/screen.css")]
-    [:body body]))
+    [:body
+     [:div.container (seq body)]]))

@@ -10,3 +10,12 @@
 (defentity tbl
   (entity-fields :id :fqdn :ip :mac :rev :user :updated_at :created_at))
 
+(defn all-entries []
+  (select tbl))
+
+(defn create-entry [entry]
+  (insert tbl (values entry)))
+
+(defn entry-by-id [id]
+  (first (select tbl (where {:id id}))))
+

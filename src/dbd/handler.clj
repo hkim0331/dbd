@@ -5,6 +5,7 @@
             [hiccup.middleware :refer [wrap-base-url]]
             [compojure.handler :as handler]
             [compojure.route :as route]
+            [dbd.routes.app  :refer [app-routes]]
             [dbd.routes.home :refer [home-routes]]))
 
 (defn init []
@@ -13,11 +14,7 @@
 (defn destroy []
   (println "dbd is shutting down"))
 
-(defroutes app-routes
-  (route/resources "/")
-  (route/not-found "Not Found"))
-
 (def app
-  (-> (routes home-routes app-routes)
+  (-> (routes app-routes)
       (handler/site)
       (wrap-base-url)))
