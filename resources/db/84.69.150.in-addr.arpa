@@ -2,7 +2,7 @@
 ;
 $TTL	86400	; 1day
 @	IN	SOA	cony.mns.kyutech.ac.jp. root.cony.melt.kyutech.ac.jp. (
-	2014112902	; serial yyyymmddss
+	2014113000	; serial yyyymmddss
 	10800	; refresh
 	3600	; retry
 	60480	; expire
@@ -59,21 +59,21 @@ $TTL	86400	; 1day
 ;110
 ;
 ;111
-112	IN	PTR	nakao-office.mns.kyutech.ac.jp.;nakao-m@mns.
+112	IN	PTR	nakao-office.mns.kyutech.ac.jp. ;nakao-m@mns.
 113	IN	PTR	deguchi-rt.mns.kyutech.ac.jp.	;deguchi@mns.
-114	IN	PTR	150-69-84-114.mns.kyutech.ac.jp.;mitoh@mns.
-115	IN	PTR	150-69-84-115.mns.kyutech.ac.jp.;takahara@mns
-116	IN	PTR	150-69-84-116.mns.kyutech.ac.jp.;sun@ele.kyutech.ac.jp
-117	IN	PTR	150-69-84-117.mns.kyutech.ac.jp.;sakai@mns.kyutech.ac.jp
-118	IN	PTR	150-69-84-118.mns.kyutech.ac.jp.;fujita@mns.kyutech.ac.jp
-119	IN	PTR	150-69-84-119.mns.kyutech.ac.jp.;nakao-m@mns.kyutech.ac.jp
-120	IN	PTR	150-69-84-120.mns.kyutech.ac.jp.;suzuki-t@mns.kyutech.ac.jp
-122	IN	PTR	150-69-84-122.mns.kyutech.ac.jp.;kamada@mns.kyutech.ac.jp
-124	IN	PTR	150-69-84-124.mns.kyutech.ac.jp.;ikedat@mns.kyutech.ac.jp
-125	IN	PTR	150-69-84-125.mns.kyutech.ac.jp.;hirayama@mns.kyutech.ac.jp
-126	IN	PTR	150-69-84-126.mns.kyutech.ac.jp.;okado@mns.
-127	IN	PTR	150-69-84-127.mns.kyutech.ac.jp.;okado@mns.
-128	IN	PTR	150-69-84-128.mns.kyutech.ac.jp.;h350916t@tobata.isc.kyutech.ac.jp
+114	IN	PTR	150-69-84-114.mns.kyutech.ac.jp. ;mitoh@mns.
+115	IN	PTR	150-69-84-115.mns.kyutech.ac.jp. ;takahara@mns
+116	IN	PTR	150-69-84-116.mns.kyutech.ac.jp. ;sun@ele.kyutech.ac.jp
+117	IN	PTR	150-69-84-117.mns.kyutech.ac.jp. ;sakai@mns.kyutech.ac.jp
+118	IN	PTR	150-69-84-118.mns.kyutech.ac.jp. ;fujita@mns.kyutech.ac.jp
+119	IN	PTR	150-69-84-119.mns.kyutech.ac.jp. ;nakao-m@mns.kyutech.ac.jp
+120	IN	PTR	150-69-84-120.mns.kyutech.ac.jp. ;suzuki-t@mns.kyutech.ac.jp
+122	IN	PTR	150-69-84-122.mns.kyutech.ac.jp. ;kamada@mns.kyutech.ac.jp
+124	IN	PTR	150-69-84-124.mns.kyutech.ac.jp. ;ikedat@mns.kyutech.ac.jp
+125	IN	PTR	150-69-84-125.mns.kyutech.ac.jp. ;hirayama@mns.kyutech.ac.jp
+126	IN	PTR	150-69-84-126.mns.kyutech.ac.jp. ;okado@mns.
+127	IN	PTR	150-69-84-127.mns.kyutech.ac.jp. ;okado@mns.
+128	IN	PTR	150-69-84-128.mns.kyutech.ac.jp. ;h350916t@tobata.isc.kyutech.ac.jp
 129	IN	PTR	150-69-84-129.mns.kyutech.ac.jp.	;soeda@ise.kyutech.ac.jp
 130	IN	PTR	150-69-84-130.mns.kyutech.ac.jp.	;senba@mns.kyutech.ac.jp
 132	IN	PTR	150-69-84-132.mns.kyutech.ac.jp.	;nisitani@mns.kyutech.ac.jp

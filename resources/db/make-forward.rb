@@ -21,6 +21,6 @@ DS = Sequel.sqlite(ARGV.shift)[:tbl]
 ret=[]
 DS.where(Sequel.like(:fqdn, "%mns.kyutech.ac.jp")).each do |e|
   print <<EOD
-#{e[:fqdn].split(/\./)[0]} IN A #{e[:ip]}. ; #{e[:user]}
+#{e[:fqdn].split(/\./)[0]} IN A #{e[:ip]} ; #{e[:user]}
 EOD
 end
