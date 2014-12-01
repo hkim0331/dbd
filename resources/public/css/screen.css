@@ -8,3 +8,10 @@ h1 {
     text-align: center;
 }
 
+th {
+    text-align: center;
+}
+
+td.data {
+    padding: 5px;
+}

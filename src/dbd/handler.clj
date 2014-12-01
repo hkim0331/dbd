@@ -14,7 +14,12 @@
 (defn destroy []
   (println "dbd is shutting down"))
 
+;; (def app
+;;   (-> (routes app-routes)
+;;       (handler/site)
+;;       (wrap-base-url)))
+
 (def app
-  (-> (routes app-routes)
-      (handler/site)
-      (wrap-base-url)))
+  (-> app-routes
+      (wrap-resource "public")
+      ))
